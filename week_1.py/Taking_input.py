@@ -1,0 +1,7 @@
+print("What is your name?")
+n = input()
+print("Hello", n)
+print("How are you nice to see you.")
+print("What's your age?")
+i= input()
+print("your age is", i ,"I am also the same age as you.")
