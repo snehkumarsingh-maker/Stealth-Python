@@ -5,11 +5,11 @@ Op = input("Operator: ")
 
 if Op == '+':
     print("Answer= ", i +j)
-elif  Op == '+':
-    print("Answer= ", i +j)
-elif  Op == '+':
-    print("Answer= ", i +j)
-elif  Op == '+':
-    print("Answer= ", i +j)
+elif  Op == '-':
+    print("Answer= ", i - j)
+elif  Op == '*':
+    print("Answer= ", i *j)
+elif  Op == '/':
+    print("Answer= ", i /j)
 else:
     print("Galat operator")
