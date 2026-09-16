@@ -3,13 +3,28 @@ j = int(input("Enter the 2nd value: "))
 
 Op = input("Operator: ")
 
-if Op == '+':
-    print("Answer= ", i +j)
-elif  Op == '-':
-    print("Answer= ", i - j)
-elif  Op == '*':
-    print("Answer= ", i *j)
-elif  Op == '/':
-    print("Answer= ", i /j)
-else:
-    print("Galat operator")
+match Op:
+    case " < ":
+        print(i < j)
+    case " > ":
+        print(i > j)
+    case " = ":
+        print(i == j)
+    case " != ":
+        print(i != j)
+    case " & ":
+        print( i & j)
+    case " % ":
+        print(i % j)
+    case " / ":
+        print(i / j)
+    case " // ":
+        print(i // j)
+    case " | ":
+        print(i | j)
+    case " * ":
+        print(i * j)
+    case " ** ":
+        print(i ** j)
+    case _:
+        print("Invalid operator, pagla wagla gya h kya be pagal h tu sale operator to dhang se likh le agar likhna nhi ata to engineering chord or majdoor bnja bhadwe")
