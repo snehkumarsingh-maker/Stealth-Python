@@ -2,7 +2,7 @@ i = 1
 n = int(input("N: "))
 
 while(i <= n):
-    if n % 1 == 0 or n % 
+    if n % 1 == 0 or n //
 
 
 
